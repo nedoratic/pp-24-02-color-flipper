@@ -1,0 +1,18 @@
+/* Variables */
+
+:root {
+	--white: #ffffff;
+	--off-white: #f5f5f5;
+	--off-black: #0f0f0f;
+	--black: #000000;
+	--font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Reset */
+
+* {
+	font-family: var(--font);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
