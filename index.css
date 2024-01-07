@@ -88,5 +88,9 @@ a {
 	gap: 1em;
 	background-color: var(--off-white);
 	min-width: 300px;
-	min-height: 180px;
+	min-height: 150px;
+}
+
+.app__body button {
+	padding: 0.3em 0.9em;
 }
