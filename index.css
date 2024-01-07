@@ -19,6 +19,8 @@
 	color: var(--black);
 }
 
+/* General */
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -26,6 +28,8 @@ body {
 	align-items: center;
 	height: 100vh;
 }
+
+/* Header */
 
 header {
 	position: fixed;
