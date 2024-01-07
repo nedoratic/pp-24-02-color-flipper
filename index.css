@@ -76,3 +76,17 @@ header {
 a {
 	text-decoration: none;
 }
+
+/* Main */
+
+.app__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 1em;
+	background-color: var(--off-white);
+	min-width: 300px;
+	min-height: 180px;
+}
