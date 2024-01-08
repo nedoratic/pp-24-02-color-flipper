@@ -140,3 +140,22 @@ const basicColors = [
 	'Yellow',
 	'YellowGreen',
 ];
+
+const basicColorsLength = basicColors.length;
+
+const button = document.querySelector('.app__body__btn');
+const value = document.querySelector('.app__body__value');
+
+const max = basicColorsLength;
+
+const generateRandomNumber = () => Math.floor(Math.random() * max);
+
+const pickRandomColor = () => basicColors[generateRandomNumber()];
+
+const renderRandomColor = () => {
+	const newColor = pickRandomColor();
+	document.body.style.backgroundColor = newColor;
+	value.textContent = newColor;
+};
+
+button.addEventListener('click', renderRandomColor);
