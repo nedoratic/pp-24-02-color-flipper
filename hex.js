@@ -20,7 +20,7 @@ const generateRandomHexColorCode = () => {
 };
 
 const renderRandomColor = () => {
-	let newColor = generateRandomHexColorCode();
+	const newColor = generateRandomHexColorCode();
 	document.body.style.backgroundColor = newColor;
 	value.textContent = newColor;
 };
